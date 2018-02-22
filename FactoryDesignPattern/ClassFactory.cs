@@ -1,5 +1,9 @@
 ﻿namespace FactoryDesignPattern
 {
+    /// <summary>
+    /// This class is actually use to separate the object creation logic from the main class 
+    /// we can declare this class as abstract as well
+    /// </summary>
     public class ClassFactory
     {
         static public IGet CreateandReturnObj(int Choice)

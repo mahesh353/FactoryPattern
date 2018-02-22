@@ -1,5 +1,8 @@
 ﻿namespace FactoryDesignPattern
 {
+    /// <summary>
+    /// Concreat implementation of Ifactory
+    /// </summary>
     public class ClassFirst : IGet
     {
         public string ConcateString(string s1, string s2)
